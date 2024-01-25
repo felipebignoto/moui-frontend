@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-slate-900 bg-no-repeat">
+      <body className="bg-primary-main">
         <Nav />
         {children}
         <Footer />

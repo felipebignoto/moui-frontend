@@ -9,7 +9,7 @@ interface CardLinkProps {
 
 export default function CardLink({ name, url }: CardLinkProps) {
   return (
-    <div className="hover:underline">
+    <div className="hover:underline hover:text-secondary-main">
       <Link href={url} prefetch={false} target="_blank">
         <span>{name}</span>
       </Link>

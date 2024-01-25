@@ -11,7 +11,7 @@ export default function NavItem(props: NavItemProps) {
       <Link
         href={props.url}
         prefetch={false}
-        className="bg-white rounded-lg font-bold p-3 hover:bg-slate-900 text-slate-900 hover:text-white hover:border-2 border-white"
+        className="bg-primary-main rounded-lg font-bold p-3 text-white hover:bg-primary-light hover:text-white hover:border-2 border-secondary-main"
       >
         {' '}
         <span> {props.name}</span>
